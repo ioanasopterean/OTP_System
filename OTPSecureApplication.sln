@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtpSecureApplication", "..\..\..\Downloads\OtpRazorNet9Solution\OtpRazorNet9\OtpSecureApplication.csproj", "{3CF24174-C701-B022-7F09-B2BC414AFFA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtpSecureApplication.Tests", "..\..\..\Downloads\OtpRazorNet9Solution\OtpRazorNet9.Tests\OtpSecureApplication.Tests.csproj", "{C1B3DF5D-B1BF-8885-6CA4-49BCC4634450}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CF24174-C701-B022-7F09-B2BC414AFFA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CF24174-C701-B022-7F09-B2BC414AFFA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CF24174-C701-B022-7F09-B2BC414AFFA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CF24174-C701-B022-7F09-B2BC414AFFA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1B3DF5D-B1BF-8885-6CA4-49BCC4634450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1B3DF5D-B1BF-8885-6CA4-49BCC4634450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1B3DF5D-B1BF-8885-6CA4-49BCC4634450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1B3DF5D-B1BF-8885-6CA4-49BCC4634450}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7D42179-FFD3-4DD5-999D-3B725491DB44}
+	EndGlobalSection
+EndGlobal
