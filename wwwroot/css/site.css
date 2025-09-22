@@ -1,0 +1,15 @@
+.toast {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}

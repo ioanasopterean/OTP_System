@@ -1,0 +1,25 @@
+@page
+@model OtpSecureApplication.Pages.OtpModel
+@{
+    ViewData["Title"] = "OTP Verification";
+}
+<h2>OTP Verification</h2>
+<form method="post">
+    <input type="text" name="UserOtp" placeholder="Enter OTP" autofocus />
+    <button type="submit">Verify</button>
+</form>
+@if (Model.ToastMessage != null)
+{
+    <div id="toast" class="toast">@Model.ToastMessage</div>
+}
+@if (Model.ErrorMessage != null)
+{
+    <div class="error">@Model.ErrorMessage</div>
+}
+@section Scripts {
+    <script>
+        setTimeout(() => {
+            document.getElementById("toast")?.remove();
+        }, @Model.ToastDuration);
+    </script>
+}
